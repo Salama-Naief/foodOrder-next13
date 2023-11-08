@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply appearance-none block  text-mainGreen-100 w-full px-4 py-4 rounded-md shadow-sm placeholder-mainGreen-200 focus:outline-none focus:ring-mainGreen-200   bg-white;
+}
