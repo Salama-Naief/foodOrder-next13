@@ -50,9 +50,8 @@ export default function Login() {
         )}
         <Button
           title={t("submit")}
-          bg={true}
+          style="w-full bg-mainGreen-200 text-white "
           loading={false}
-          fullWidth={true}
         />
       </form>
     </section>

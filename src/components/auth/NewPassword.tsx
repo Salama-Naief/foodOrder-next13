@@ -85,7 +85,12 @@ export default function NewPassword() {
             {errors.confirmNewPassword}
           </p>
         )}
-        <Button title={t("reset")} bg={true} loading={false} fullWidth={true} />
+
+        <Button
+          title={t("reset")}
+          loading={false}
+          style="w-full bg-mainGreen-200 text-white "
+        />
       </form>
     </section>
   );

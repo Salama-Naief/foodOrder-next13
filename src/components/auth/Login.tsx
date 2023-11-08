@@ -97,7 +97,11 @@ export default function Login() {
             {t("forgot_password")}
           </Link>
         </div>
-        <Button title={t("login")} bg={true} loading={false} fullWidth={true} />
+        <Button
+          title={t("login")}
+          style="w-full bg-mainGreen-200 text-white "
+          loading={false}
+        />
       </form>
     </section>
   );

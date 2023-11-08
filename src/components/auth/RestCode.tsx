@@ -45,9 +45,8 @@ export default function RestCode() {
         )}
         <Button
           title={t("verify_code")}
-          bg={true}
+          style="w-full bg-mainGreen-200 text-white "
           loading={false}
-          fullWidth={true}
         />
       </form>
     </section>

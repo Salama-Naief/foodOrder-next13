@@ -127,7 +127,10 @@ export default function Register() {
           <p className="text-mainRed-200 text-sm">{errors.phone}</p>
         )}
 
-        <Button title={t("register")} bg={true} fullWidth={true} />
+        <Button
+          title={t("register")}
+          style="w-full bg-mainGreen-200 text-white "
+        />
       </form>
     </section>
   );
