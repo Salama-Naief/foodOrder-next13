@@ -15,7 +15,13 @@ export default async function Products({ params }: Props) {
   const messages = (await import(`../../../../messages/${locale}.json`))
     .default;
   const product = products[parseInt(params.id)];
-
+  if (!product) {
+    return (
+      <div className="flex w-full h-full items-center justify-center text-mainRed-200">
+        no product found
+      </div>
+    );
+  }
   return (
     <main className="relative">
       <NextIntlClientProvider
